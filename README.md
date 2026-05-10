@@ -43,6 +43,9 @@ xgboost (Entrenamiento del modelo predictivo)
 matplotlib / seaborn (Visualización de datos)
 
 👥 Equipo
+
 Geovana Daniela Camacho
+
 Sofía Cardona 
+
 Meritxell Balada
