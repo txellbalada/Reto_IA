@@ -14,9 +14,13 @@ Salida: Exporta los resultados limpios a los archivos CSV.
 
 Descripción: Contiene los datasets estructurados generados por el pipeline. Estos archivos tabulares incluyen el ID del audio, sus características estadísticas (medias y desviaciones estándar) y la variable objetivo o label (0 = Real, 1 = IA), listos para alimentar los modelos.
 
-📈 2_Analisis_Datos_VX.ipynb
+📈 2_Analisis_Datos_V6.ipynb
 
 Descripción: Archivo dedicado al Análisis Exploratorio de Datos (EDA) y al modelado. Aquí se inspeccionan los CSVs, se eliminan las variables redundantes, se visualizan las distribuciones y se entrenan/evalúan los modelos de clasificación (ej. XGBoost, Random Forest).
+
+📈 Demo_Gradio.ipynb
+
+Descripción: Archivo dedicado a ejecutar una demo en tiempo real de clasificación de un áudio entre sintético y real con el modelo de XGBoost.
 
 ⚙️ Flujo de Trabajo (Pipeline)
 Ingesta: Lectura iterativa de los archivos .wav desde el directorio de origen.
